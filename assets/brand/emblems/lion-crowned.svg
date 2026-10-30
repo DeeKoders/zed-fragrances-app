@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- PLACEHOLDER: replace with the official Dominator crowned-lion emblem (keep the file name). -->
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8E9B8" />
+      <stop offset=".45" stop-color="#D4A848" />
+      <stop offset="1" stop-color="#7F5A1E" />
+    </linearGradient>
+  </defs>
+  <g stroke="url(#gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M38 34L44 16L52 28L60 12L68 28L76 16L82 34Z" />
+    <path d="M38 34H82V40H38Z" />
+    <circle cx="44" cy="13" r="2" />
+    <circle cx="60" cy="9" r="2" />
+    <circle cx="76" cy="13" r="2" />
+    <path d="M60 44C82 44 96 58 96 76C96 95 80 108 60 112C40 108 24 95 24 76C24 58 38 44 60 44Z" />
+    <path d="M60 54C72 54 80 63 80 75C80 88 71 96 60 100C49 96 40 88 40 75C40 63 48 54 60 54Z" />
+    <path d="M40 66L28 60M38 80L26 85M44 93L34 100M80 66L92 60M82 80L94 85M76 93L86 100" />
+    <path d="M50 72L56 74M70 72L64 74" />
+    <path d="M56 82L60 87L64 82M60 87V91M54 93C57 96 63 96 66 93" />
+  </g>
+</svg>

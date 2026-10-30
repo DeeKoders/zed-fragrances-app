@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- PLACEHOLDER: replace with the official Sovereign lotus emblem (keep the file name). -->
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F8E9B8" />
+      <stop offset=".45" stop-color="#D4A848" />
+      <stop offset="1" stop-color="#7F5A1E" />
+    </linearGradient>
+  </defs>
+  <g stroke="url(#gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M60 16C70 32 74 54 60 84C46 54 50 32 60 16Z" />
+    <path d="M60 16V84" />
+    <path d="M60 84C44 74 34 56 36 36C48 44 56 60 60 84Z" />
+    <path d="M60 84C76 74 86 56 84 36C72 44 64 60 60 84Z" />
+    <path d="M60 84L42 46M60 84L78 46" />
+    <path d="M60 86C40 86 22 76 14 58C30 58 46 66 60 86Z" />
+    <path d="M60 86C80 86 98 76 106 58C90 58 74 66 60 86Z" />
+    <path d="M30 95C46 101 74 101 90 95" />
+    <path d="M42 103C54 107 66 107 78 103" />
+  </g>
+</svg>

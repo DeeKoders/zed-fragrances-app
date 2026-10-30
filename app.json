@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "ZED Fragrances",
+    "slug": "zed-fragrances",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app/icon.png",
+    "scheme": "zed",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#050505",
+    "platforms": ["ios", "android"],
+    "runtimeVersion": { "policy": "appVersion" },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "bundleIdentifier": "com.zedfragrances.app",
+      "supportsTablet": false,
+      "buildNumber": "1",
+      "config": { "usesNonExemptEncryption": false }
+    },
+    "android": {
+      "package": "com.zedfragrances.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app/adaptive-icon.png",
+        "backgroundColor": "#050505"
+      },
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "resize",
+      "blockedPermissions": ["android.permission.RECORD_AUDIO"]
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#050505",
+          "image": "./assets/app/splash.png",
+          "imageWidth": 260,
+          "dark": { "backgroundColor": "#050505", "image": "./assets/app/splash.png" }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "ZED Fragrances needs your photos so you can upload the screenshot of your payment.",
+          "cameraPermission": false,
+          "microphonePermission": false
+        }
+      ],
+      [
+        "expo-sensors",
+        { "motionPermission": "ZED Fragrances uses motion to tilt the bottles on the home screen." }
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-updates"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
